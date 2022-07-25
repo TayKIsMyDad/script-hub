@@ -1,0 +1,3 @@
+setclipboard("https://discord.gg/yWp9BvQH")
+
+game.Players.LocalPlayer:Kick("         GUI is broken, im working on a fix. Join the discord.")
