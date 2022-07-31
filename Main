@@ -14,7 +14,7 @@ end)
 local Tab1 = Window.Tab("Arsenal", 5882058101)
 local Folder = Tab1.Folder("Owlhub", "Load OwlHubs Arsenal GUI")
 Folder.Button("", "Execute", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/TayKIsMyDad/script-hub/main/Main", true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
     print("Loaded Owlhub")
 end)
 --
