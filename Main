@@ -14,7 +14,7 @@ end)
 local Tab1 = Window.Tab("Arsenal", 5882058101)
 local Folder = Tab1.Folder("Owlhub", "Load OwlHubs Arsenal GUI")
 Folder.Button("", "Execute", function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/TayKIsMyDad/script-hub/main/Main", true))()
     print("Loaded Owlhub")
 end)
 --
@@ -42,13 +42,20 @@ local Folder = Tab1.Folder("Strawhook", "Load Strawhooks Phantom Forces GUI")
 Folder.Button("", "Execute", function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/VoidMasterX/strawhook/main/script.lua", true))()
 end)
-
+--
 game:GetService("UserInputService").InputBegan:Connect(function(Input)
 if Input.KeyCode == Enum.KeyCode.RightAlt then
         Window:Toggle()
     end
 end)
-
+--
+local Tab1 = Window.Tab("Da Hood", 5882058101)
+local Folder = Tab1.Folder("Caps Lock", "Load Caps Lock DaHood GUI")
+Folder.Button("", "Execute", function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/whoiscapslock/capslock/main/main", true))()
+    print("Loaded CapsLock!")
+end)
+--
 local Tab1 = Window.Tab("Misc", 5882058101)
 local Folder = Tab1.Folder("Misc", "Keybind")
 Folder.Button("", "RightAlt", function()
