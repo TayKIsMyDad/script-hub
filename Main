@@ -2,7 +2,7 @@ print ("Loaded ChoppaSploit!")
 --
 local Luminosity = loadstring(game:HttpGet("https://raw.githubusercontent.com/iHavoc101/Genesis-Studios/main/UserInterface/Luminosity.lua", true))()
 --
-local Window = Luminosity.new("ChoppaSploit", "V0.7.0", 5882058101)
+local Window = Luminosity.new("ChoppaSploit", "V0.8.0", 5882058101)
 --
 local Tab1 = Window.Tab("Universal Aimbot", 5882058101)
 local Folder = Tab1.Folder("Aimware", "Load YouBuggins universal aimbot and ESP")
