@@ -56,6 +56,13 @@ Folder.Button("", "Execute", function()
     print("Loaded CapsLock!")
 end)
 --
+local Tab1 = Window.Tab("Bedwars", 5882058101)
+local Folder = Tab1.Folder("VapeV4", "Load VapeV4 Bedwars GUI")
+Folder.Button("", "Execute", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+print ("Loaded Vape!")
+end)
+--
 local Tab1 = Window.Tab("Misc", 5882058101)
 local Folder = Tab1.Folder("Misc", "Keybind")
 Folder.Button("", "RightAlt", function()
