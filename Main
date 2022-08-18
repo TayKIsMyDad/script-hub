@@ -61,7 +61,3 @@ local Folder = Tab1.Folder("VapeV4", "Load VapeV4's Bedwars GUI")
 Folder.Button("", "Execute", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
 --
-local Tab1 = Window.Tab("Misc", 5882058101)
-local Folder = Tab1.Folder("Misc", "Keybind")
-Folder.Button("", "RightAlt", function()
-end)
