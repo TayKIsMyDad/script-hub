@@ -57,23 +57,9 @@ Folder.Button("", "Execute", function()
 end)
 --
 local Tab1 = Window.Tab("Bedwars", 5882058101)
-local Folder = Tab1.Folder("FPS Unlocker", "Load My Own FPS Unlocker!")
+local Folder = Tab1.Folder("VapeV4", "Load VapeV4's Bedwars GUI")
 Folder.Button("", "Execute", function()
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/WetCheezit/Bracket-V2/main/src.lua"))()
-
--- Window
-local Window, MainGUI = Library:CreateWindow("ChoppaSploit")
-
--- Tabs
-local Tab1 = Window:CreateTab("Click Me!")
-
-local Groupbox1 = Tab1:CreateGroupbox("FPS Unlocker", "Left")
-local ExampleSlider = Groupbox1:CreateSlider("Example slider", 15, 1000, 0, function(value)
-   print(value)
-   setfpscap(value)
-end)
-print ("Loaded ChoppaSploit FPS Unlocker!")
-end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
 --
 local Tab1 = Window.Tab("Misc", 5882058101)
 local Folder = Tab1.Folder("Misc", "Keybind")
