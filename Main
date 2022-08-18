@@ -60,4 +60,4 @@ local Tab1 = Window.Tab("Bedwars", 5882058101)
 local Folder = Tab1.Folder("VapeV4", "Load VapeV4's Bedwars GUI")
 Folder.Button("", "Execute", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
---
+end)
